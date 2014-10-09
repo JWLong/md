@@ -1,0 +1,13 @@
+= simple_form_for(@page) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :address
+    = f.input :phone
+    = f.input :email
+    = f.input :bio
+    = f.input :rate
+
+  .form-actions
+    = f.button :submit

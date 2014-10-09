@@ -1,0 +1,24 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @page.name
+%p
+  %b Address:
+  = @page.address
+%p
+  %b Phone:
+  = @page.phone
+%p
+  %b Email:
+  = @page.email
+%p
+  %b Bio:
+  = @page.bio
+%p
+  %b Rate:
+  = @page.rate
+
+= link_to 'Edit', edit_page_path(@page)
+\|
+= link_to 'Back', pages_path
