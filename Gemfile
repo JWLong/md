@@ -15,7 +15,7 @@ gem 'devise_invitable'
 gem 'haml-rails'
 # gem 'high_voltage'
 gem 'pg'
-gem 'rails_admin'
+gem 'rails_admin', :git => "git://github.com/sferik/rails_admin.git"
 gem 'sendgrid'
 gem 'simple_form'
 gem 'unicorn'
